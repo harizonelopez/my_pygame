@@ -1,6 +1,5 @@
 # Dev_@ladinh production
 # my_pygame  is a game in which I have developed in which it shoots red bullets by pressing the enter key and controlling the battle ship using the arrow keys 
-
 import pygame
 import sys
 
@@ -41,7 +40,7 @@ bullets = []
 
 clock = pygame.time.Clock()
 running = True
-speed = 10
+speed = 11
 
 while running:
     for event in pygame.event.get():
