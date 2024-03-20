@@ -1,5 +1,6 @@
 # Dev_@ladinh production
 # my_pygame  is a game in which I have developed in which it shoots red bullets by pressing the enter key and controlling the battle ship using the arrow keys 
+
 import pygame
 import sys
 
@@ -70,6 +71,7 @@ while running:
 
     pygame.display.flip()
     clock.tick(30)
+    
 
 pygame.quit()
 sys.exit()
